@@ -32,7 +32,6 @@ option = {
     
 
 
-
     CRA = { add_state_core = 827
             add_state_core = 828
             add_state_core = 821
@@ -51,6 +50,40 @@ option = {
 					target = SOV
 					type = annex_everything
 				}
+
+    		821 = {
+				create_unit = {
+					division = "division_template = \"Pekhotnaya diviziya\""
+					count = 3
+					owner = CRA
+				}
+			}
+			 237 = {
+				create_unit = {
+					division = "division_template = \"Kavaleriyskaya diviziya\""
+					count = 3
+					owner = CRA
+				}
+			}
+			 231 = {
+				create_unit = {
+					division = "division_template = \"Pekhotnaya diviziya\""
+					count = 3
+					owner = CRA
+				}
+			}
+			 217 = {
+				create_unit = {
+					division = "division_template = \"Kavaleriyskaya diviziya\""
+					count = 3
+					owner = CRA
+				}
+			}
+
+
+
+
+
             }
         }
 }
@@ -83,6 +116,24 @@ option = {
 					target = SOV
 					type = annex_everything
 				}
+
+
+			 215 = {
+				create_unit = {
+					division = "division_template = \"Kavaleriyskaya diviziya\""
+					count = 3
+					owner = KCK
+				}
+			}
+
+			 562 = {
+				create_unit = {
+					division = "division_template = \"Kavaleriyskaya diviziya\""
+					count = 3
+					owner = KCK
+				}
+			}
+
     }
                                    
                                 
@@ -118,6 +169,26 @@ option = {
 					target = SOV
 					type = annex_everything
 				}
+
+    		218 = {
+				create_unit = {
+					division = "division_template = \"Pekhotnaya diviziya\""
+					count = 3
+					owner = DKO
+				}
+			}
+			 245 = {
+				create_unit = {
+					division = "division_template = \"Kavaleriyskaya diviziya\""
+					count = 3
+					owner = DKO
+				}
+			}
+
+
+
+
+
     }
                                    
                                 
@@ -215,10 +286,52 @@ option = {
         add_state_core = 874
         add_state_core = 562
         add_state_core = 574
+
+        create_faction = "White Movement"
+        add_to_faction = CRA
+        add_to_faction = DKO
+        add_to_faction = KCK
+        add_to_faction = SAN
+
+
   		declare_war_on = {
 					target = SOV
 					type = annex_everything
 				}
+
+    		213 = {
+				create_unit = {
+					division = "division_template = \"Pekhotnaya diviziya\""
+					count = 3
+					owner = SRA
+				}
+			}
+			 215 = {
+				create_unit = {
+					division = "division_template = \"Kavaleriyskaya diviziya\""
+					count = 3
+					owner = SRA
+				}
+			}
+			 822 = {
+				create_unit = {
+					division = "division_template = \"Pekhotnaya diviziya\""
+					count = 3
+					owner = SRA
+				}
+			}
+			 562 = {
+				create_unit = {
+					division = "division_template = \"Kavaleriyskaya diviziya\""
+					count = 3
+					owner = SRA
+				}
+			}
+
+
+
+
+
 
 
 
