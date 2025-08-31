@@ -41,3 +41,23 @@ option = {
 
 }
 
+add_namespace = gercap
+
+country_event = {
+
+id = gercap.1
+title = gercap.1.t
+desc = gercap.1.d
+hidden = no
+picture = GFX_report_event_generic_battle
+fire_only_once = yes
+is_triggered_only = yes
+
+option = {
+
+
+
+
+    }
+
+}
