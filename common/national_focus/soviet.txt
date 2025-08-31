@@ -28,7 +28,8 @@ focus = {
 
 		every_state = {
   					limit = {
-    				is_owned_by = RSA
+    				is_owned_by = SOV
+					is_owned_by = RSA
  								 }
   					add_core_of = SOV
 }
