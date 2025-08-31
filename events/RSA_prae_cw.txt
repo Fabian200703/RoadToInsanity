@@ -58,14 +58,14 @@ AUS = {every_state = { limit = { is_controlled_by = AUS
                         is_owned_by = RSA
 
  }
-  transfer_state_to = AUS } 
+  transfer_state_to = GER } 
 }
 
 BUL = {every_state = { limit = { is_controlled_by = BUL
                         is_owned_by = RSA
 
  }
-  transfer_state_to = BUL } 
+  transfer_state_to = GER } 
 }
 
 TUR = {every_state = { limit = { is_controlled_by = TUR
@@ -96,6 +96,27 @@ every_state = { limit = {
 
  }
   transfer_state_to = SOV }   
+
+declare_war_on = {
+                target = GER
+                type = annex_everything
+            }
+declare_war_on = {
+                target = BUL
+                type = annex_everything
+            }
+declare_war_on = {
+                target = TUR
+                type = annex_everything
+            }
+declare_war_on = {
+                target = AUS
+                type = annex_everything
+            }
+
+
+
+
 
 
                 }

@@ -1,0 +1,33 @@
+SOV_CIVIL_WAR = {
+	Peace_with_the_Germans = {
+
+		priority = 7
+
+		icon = generic_ignite_civil_war
+		fire_only_once = yes
+		activation = { country_exists = SOV}
+		visible = {
+
+		}
+		available = {
+			country_exists = SOV
+		}
+		
+		cancel_trigger = {
+			has_war = no
+		}
+		icon = mission_icon     # For GFX_decision_mission_icon
+		is_good = yes
+		days_mission_timeout = 130
+
+		selectable_mission = yes
+		complete_effect = {
+			add_stability = 0.10
+		}
+		timeout_effect = {
+
+			country_event = TBL.001
+
+		}
+	}
+}
