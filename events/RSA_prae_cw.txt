@@ -45,7 +45,12 @@ is_triggered_only = yes
 
 option = {
 
-country_event = RCO.002
+
+		ROOT = {
+			country_event = {
+				id = RCO.002
+			}
+		}
   
 GER = {every_state = { limit = { is_controlled_by = GER
                         is_owned_by = RSA
@@ -80,9 +85,9 @@ TUR = {every_state = { limit = { is_controlled_by = TUR
 
 country_event = {
 
-id = RCO.003
-title = RCO.003.t
-desc = RCO.003.d
+id = RCO.002
+title = RCO.002.t
+desc = RCO.002.d
 hidden = no
 picture = GFX_report_event_generic_battle
 fire_only_once = yes
