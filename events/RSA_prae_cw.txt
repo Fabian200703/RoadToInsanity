@@ -44,9 +44,12 @@ fire_only_once = yes
 is_triggered_only = yes
 
 option = {
+  	RSA = {
+			country_event = {
+				id = RCO.002
+			}
 
-
-		ROOT = {
+		SOV = {
 			country_event = {
 				id = RCO.002
 			}
@@ -119,4 +122,5 @@ declare_war_on = {
                 type = annex_everything
             }
                 }
+}
 }
