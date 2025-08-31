@@ -270,17 +270,17 @@ option = {
 
 
 
-    SRA = {
-        add_state_core = 213
-        add_state_core = 214
-        add_state_core = 215
-        add_state_core = 825 
-        add_state_core = 213
-        add_state_core = 214
-        add_state_core = 215
-        add_state_core = 825 
-        add_state_core = 213
-        add_state_core = 214
+    SRA = { 
+        add_state_core = 408
+        add_state_core = 409
+        add_state_core = 657
+        add_state_core = 560
+        add_state_core = 655
+        add_state_core = 561
+        add_state_core = 563
+        add_state_core = 564
+        add_state_core = 566
+        add_state_core = 565
         add_state_core = 637
         add_state_core = 822
         add_state_core = 874
@@ -299,14 +299,14 @@ option = {
 					type = annex_everything
 				}
 
-    		213 = {
+    		562 = {
 				create_unit = {
 					division = "division_template = \"Pekhotnaya diviziya\""
 					count = 3
 					owner = SRA
 				}
 			}
-			 215 = {
+			 874 = {
 				create_unit = {
 					division = "division_template = \"Kavaleriyskaya diviziya\""
 					count = 3
@@ -320,7 +320,7 @@ option = {
 					owner = SRA
 				}
 			}
-			 562 = {
+			 574 = {
 				create_unit = {
 					division = "division_template = \"Kavaleriyskaya diviziya\""
 					count = 3
