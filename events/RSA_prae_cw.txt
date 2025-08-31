@@ -85,7 +85,7 @@ TUR = {every_state = { limit = { is_controlled_by = TUR
 
         }
 }
-
+}
 country_event = {
 
 id = RCO.002
