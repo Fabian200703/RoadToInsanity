@@ -18,7 +18,7 @@ focus_tree = {
 focus = {
 		id = proclaim_the_Russian_SFSR
 		icon = GFX_focus_GER_the_peoples_victory
-		prerequisite = {NOT = { country_exists = RSA }}
+		prerequisite = {country_exists = CRA}
 		x = 12
 		y = 0
 		cost = 1
