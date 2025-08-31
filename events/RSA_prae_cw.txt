@@ -44,12 +44,7 @@ fire_only_once = yes
 is_triggered_only = yes
 
 option = {
-  	RSA = {
-			country_event = {
-				id = RCO.002
-			}
-
-		SOV = {
+  SOV = {
 			country_event = {
 				id = RCO.002
 			}
@@ -85,7 +80,7 @@ TUR = {every_state = { limit = { is_controlled_by = TUR
 
         }
 }
-}
+
 country_event = {
 
 id = RCO.002
@@ -122,5 +117,4 @@ declare_war_on = {
                 type = annex_everything
             }
                 }
-}
 }
