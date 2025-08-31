@@ -137,7 +137,7 @@ RSA_CIVIL_WAR = {
 		}
 		icon = mission_icon     # For GFX_decision_mission_icon
 		is_good = yes
-		days_mission_timeout = 20
+		days_mission_timeout = 21
 
 		selectable_mission = yes
 		complete_effect = {
