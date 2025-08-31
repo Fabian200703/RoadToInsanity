@@ -109,29 +109,7 @@ RSA_CIVIL_WAR = {
 			country_event = SAN.001
 			country_event = DKO.001
 			country_event = RCO.001
-SOV = {
-			declare_war_on = {
-		target = BUL
-		type = annex_everything
-	}
-
-declare_war_on = {
-		target = AUS
-		type = annex_everything
-	}
-
-declare_war_on = {
-		target = GER
-		type = annex_everything
-	}
-
-declare_war_on = {
-		target = TUR
-		type = annex_everything
-	}
-
-
-			}	
+	
 		}
 	}
 
@@ -216,32 +194,4 @@ declare_war_on = {
 
 		}
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
 }
