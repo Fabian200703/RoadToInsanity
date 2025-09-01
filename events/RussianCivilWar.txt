@@ -118,7 +118,7 @@ option = {
 				}
 
 
-			 215 = {
+			 234 = {
 				create_unit = {
 					division = "division_template = \"Kavaleriyskaya diviziya\""
 					count = 3
@@ -126,7 +126,7 @@ option = {
 				}
 			}
 
-			 562 = {
+			 233 = {
 				create_unit = {
 					division = "division_template = \"Kavaleriyskaya diviziya\""
 					count = 3
@@ -227,7 +227,21 @@ option = {
             		declare_war_on = {
 					target = SOV
 					type = annex_everything
-				}     
+				}   
+                    		213 = {
+				create_unit = {
+					division = "division_template = \"Pekhotnaya diviziya\""
+					count = 2
+					owner = SAN
+				}
+			}
+			 825 = {
+				create_unit = {
+					division = "division_template = \"Kavaleriyskaya diviziya\""
+					count = 2
+					owner = SAN
+				}
+			}  
     }
                                    
                                 
