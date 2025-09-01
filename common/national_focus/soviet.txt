@@ -205,7 +205,8 @@ focus = {
 	
 		focus = {
 		id = More_Soldiers_for_the_revolution
-		prerequisite = {focus = Mobilize_a_red_army}
+		prerequisite = {focus = war_communism}
+		prerequisite = {focus = create_the_tscheka}
 		icon = GFX_focus_GER_the_peoples_victory
 		x = 18
 		y = 3
@@ -248,7 +249,7 @@ focus = {
 	}
 
 	focus = {
-		id = 
+		id = Platzhalter
 		prerequisite = {focus = Mobilize_a_red_army}
 		prerequisite = {focus = More_Soldiers_for_the_revolution}
 		prerequisite = {focus = A_Bolshevik_Press}
