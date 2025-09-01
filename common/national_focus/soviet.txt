@@ -140,28 +140,34 @@ focus = {
 		id = create_the_tscheka
 		prerequisite = {focus = united_we_stand}
 		icon = GFX_focus_GER_the_peoples_victory
-		x = 20
+		x = 19
 		y = 2
 		cost = 1
 		
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
-				
+			if = {
+					limit = {
+						has_intelligence_agency = no
+					}
+					create_intelligence_agency = yes
+				}
 
 		}
 	}
 
 	focus = {
 		id = consolidate_power
-		prerequisite = {focus = united_we_stand}
+		prerequisite = {focus = proclaim_the_Russian_SFSR}
 		icon = GFX_focus_GER_the_peoples_victory
-		x = 18
-		y = 2
+		x = 12
+		y = 1
 		cost = 2
 		
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
-				
+				add_popularity = {ideology = communism
+				popularity = 0.1}
 
 		}
 	}
@@ -170,7 +176,7 @@ focus = {
 		id = war_communism
 		prerequisite = {focus = united_we_stand}
 		icon = GFX_focus_GER_the_peoples_victory
-		x = 22
+		x = 21
 		y = 2
 		cost = 2
 		
@@ -181,11 +187,82 @@ focus = {
 		}
 	}
 
+	focus = {
+		id = Mobilize_a_red_army
+		prerequisite = {focus = war_communism}
+		prerequisite = {focus = create_the_tscheka}
+		icon = GFX_focus_GER_the_peoples_victory
+		x = 20
+		y = 3
+		cost = 2
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+				
 
+		}
+	}
+	
+		focus = {
+		id = More_Soldiers_for_the_revolution
+		prerequisite = {focus = Mobilize_a_red_army}
+		icon = GFX_focus_GER_the_peoples_victory
+		x = 18
+		y = 3
+		cost = 2
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+			195 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 5
+					owner = SOV
+				}
+			}
+			219 = {
+				create_unit = {
+					division = "division_template = \"Opolcheniye Krasnoy Armii\""
+					count = 5
+					owner = SOV
+				}
+			}
 
+		}
+	}
 
+	focus = {
+		id = A_Bolshevik_Press
+		prerequisite = {focus = war_communism}
+		prerequisite = {focus = create_the_tscheka}
+		icon = GFX_focus_GER_the_peoples_victory
+		x = 22
+		y = 3
+		cost = 2
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+				
 
+		}
+	}
 
+	focus = {
+		id = 
+		prerequisite = {focus = Mobilize_a_red_army}
+		prerequisite = {focus = More_Soldiers_for_the_revolution}
+		prerequisite = {focus = A_Bolshevik_Press}
+		icon = GFX_focus_GER_the_peoples_victory
+		x = 20
+		y = 4
+		cost = 2
+		
+		search_filters = {FOCUS_FILTER_POLITICAL}
+		completion_reward = {
+				
+
+		}
+	}
 
 
 
