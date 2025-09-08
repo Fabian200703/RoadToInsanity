@@ -1,0 +1,62 @@
+country_event = {
+	id = leninshot.001
+	title = leninshot.001.t
+	desc = leninshot.001.desc
+	picture = GFX_report_event_generic_battle
+	hidden = no
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+			tag = SOV
+		date > 1917.30.08}
+	
+	option = {
+	 name = "Lenin survives"
+	}
+	option = {
+	name = "Lenin dies"
+	country_event = leninshot.002
+	}
+}
+
+
+country_event = {
+    id = leninshot.002
+    title = leninshot.002.t
+    desc = leninshot.002.desc
+    picture = GFX_report_event_generic_battle
+    is_triggered_only = yes
+    hidden = no
+    
+
+    option = {
+        name = "Leon Trotsky"
+		create_country_leader = {
+		name = "Leon Trotsky"
+		picture = "radek.dds"
+		ideology = marxism
+		traits = {}
+		expire = "1960.1.1.1"
+}
+		
+    }
+		
+	option = {
+		name = "Karl Radek"
+		create_country_leader = {
+		name = "Karl Radek"
+		picture = "radek.dds"
+		ideology = marxism
+		traits = {}
+		expire = "1960.1.1.1"
+}
+
+
+
+
+
+
+	}
+}
+
+        
