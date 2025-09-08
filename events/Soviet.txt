@@ -1,3 +1,5 @@
+add_namespace = leninshot
+
 country_event = {
 	id = leninshot.001
 	title = leninshot.001.t
