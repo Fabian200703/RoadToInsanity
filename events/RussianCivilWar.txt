@@ -686,26 +686,26 @@ option = {
 
 }
 
-add_namespace = RAS
+add_namespace = RRR
 country_event = {
 
-id = RAS.001
-title = RAS.001.t
-desc = RAS.001.d
+id = RRR.001
+title = RRR.001.t
+desc = RRR.001.d
 hidden = no
 picture = GFX_report_event_generic_battle
 fire_only_once = yes
 is_triggered_only = yes
 option = {
-    name = RAS.001.a
+    name = RRR.001.a
     ai_chance = {factor = 100}
 
-    251 = {transfer_state_to = RAS}
+    251 = {transfer_state_to = RRR}
 
 
 
 
-    RAS = {
+    RRR = {
         add_state_core = 251
 
   
@@ -725,7 +725,7 @@ option = {
 				create_unit = {
 					division = "division_template = \"Pekhotnaya diviziya\""
 					count = 10
-					owner = RAS
+					owner = RRR
 				}
 			}
   
