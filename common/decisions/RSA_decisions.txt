@@ -108,6 +108,9 @@ RSA_CIVIL_WAR = {
 			country_event = DKO.001
 			country_event = RCO.001
 			country_event = SRA.001
+			country_event = WRA.001
+			country_event = RAS.001
+			country_event = CZL.001
 	
 		}
 	}

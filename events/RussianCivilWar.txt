@@ -595,3 +595,143 @@ white_peace = POL
 }
 }
 }
+
+add_namespace = WRA
+country_event = {
+
+id = WRA.001
+title = WRA.001.t
+desc = WRA.001.d
+hidden = no
+picture = GFX_report_event_generic_battle
+fire_only_once = yes
+is_triggered_only = yes
+option = {
+    name = WRA.001.a
+    ai_chance = {factor = 100}
+
+    209 = {transfer_state_to = WRA}
+    210 = {transfer_state_to = WRA}
+
+
+
+    WRA = {
+        add_state_core = 210
+        add_state_core = 209
+  
+            		declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}   
+                    		209 = {
+				create_unit = {
+					division = "division_template = \"Pekhotnaya diviziya\""
+					count = 4
+					owner = WRA
+				}
+			}
+			 210 = {
+				create_unit = {
+					division = "division_template = \"Kavaleriyskaya diviziya\""
+					count = 4
+					owner = WRA
+				}
+			}  
+    }
+                                   
+                                
+                                }
+
+}
+
+add_namespace = CZL
+country_event = {
+
+id = CZL.001
+title = CZL.001.t
+desc = CZL.001.d
+hidden = no
+picture = GFX_report_event_generic_battle
+fire_only_once = yes
+is_triggered_only = yes
+option = {
+    name = CZL.001.a
+    ai_chance = {factor = 100}
+
+    571 = {transfer_state_to = CZL}
+
+
+
+
+    CZL = {
+        add_state_core = 571
+
+  
+            		declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}   
+                    		571 = {
+				create_unit = {
+					division = "division_template = \"Pekhotnaya diviziya\""
+					count = 7
+					owner = CZL
+				}
+			}
+  
+    }
+                                   
+                                
+                                }
+
+}
+
+add_namespace = RAS
+country_event = {
+
+id = RAS.001
+title = RAS.001.t
+desc = RAS.001.d
+hidden = no
+picture = GFX_report_event_generic_battle
+fire_only_once = yes
+is_triggered_only = yes
+option = {
+    name = RAS.001.a
+    ai_chance = {factor = 100}
+
+    251 = {transfer_state_to = RAS}
+
+
+
+
+    RAS = {
+        add_state_core = 251
+
+  
+            		declare_war_on = {
+					target = SOV
+					type = annex_everything
+				}   
+
+            		declare_war_on = {
+					target = CRA
+					type = annex_everything
+				} 
+
+
+
+                    		251 = {
+				create_unit = {
+					division = "division_template = \"Pekhotnaya diviziya\""
+					count = 10
+					owner = RAS
+				}
+			}
+  
+    }
+                                   
+                                
+                                }
+
+}

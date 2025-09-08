@@ -186,6 +186,9 @@ DKO = "countries/Don Cossacks.txt"
 KCK = "countries/Kuban Cossacks.txt"
 RFI = "countries/Red Finland.txt"
 TCR = "countries/Transcaucasia.txt"
+WRA = "countries/West Russian Army.txt"
+CZL = "countries/Czechoslovak Legion.txt"
+RAS = "countries/Russian Constituent Assembly.txt"
 
 #neutral US bloc during civil war in MTG
 MRT = "countries/Mauritania.txt"
