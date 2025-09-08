@@ -5523,3 +5523,15 @@
  TCR:0 "Transcaucasian Republic"
  TCR_ADJ:0 "Transcaucasian"
  TCR_DEF:0 "the Transcaucasian Republic"
+
+ WRA:0 "West Russian Army"
+ WRA_ADJ:0 "russian"
+ WRA_DEF:0 "the West Russian Army"
+
+ CZL:0 "Czechoslovak Legion"
+ CZL_ADJ:0 "czech"
+ CZL_DEF:0 "the Czechoslovak Legion"
+
+ RRR:0 "Russian Constituent Assembly"
+ RRR_ADJ:0 "russian"
+ RRR_DEF:0 "the Russian Constituent Assembly"
