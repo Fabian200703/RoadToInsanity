@@ -117,7 +117,7 @@ name = "We will lead the people to freedom"
 
 load_focus_tree = {
 
-tree = RussiaDEM
+tree = RussiaDEM.txt
 
 }
 
