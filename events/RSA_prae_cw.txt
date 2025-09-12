@@ -102,3 +102,26 @@ declare_war_on = {
   }
 }
 
+add_name_space = NFT
+
+country_event = {
+
+id = NFT.1
+title = NFT.1.t
+desc = NFT.1.d
+
+is_triggered_only = yes 
+
+option = {
+
+name = "We will lead the people to freedom"
+
+load_focus_tree = {
+
+tree = RussiaDEM
+
+}
+
+  } 
+}
+

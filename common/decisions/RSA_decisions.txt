@@ -30,6 +30,7 @@ RSA_CIVIL_WAR = {
 		}
 		timeout_effect = {
 			country_event = rusrev.1
+			country_event = NFT.1
 		}
 	}
 
