@@ -5,8 +5,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 10
-			tag = RSA
+			add = 15
 			has_idea = February_Revolution
 		}
 	}
