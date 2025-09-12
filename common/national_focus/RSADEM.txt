@@ -39,7 +39,7 @@ focus_tree = {
 		icon = GFX_goal_generic_production2
 		x = 12
 		y = 1
-		cost = 8
+		cost = 1
 
 		available = {
 
@@ -66,7 +66,14 @@ focus_tree = {
 		
 		search_filters = {FOCUS_FILTER_POLITICAL}
 		completion_reward = {
-				add_political_power = 100
+				add_political_power = 
+		create_country_leader = {
+		name = "Alexander Fyodorovich Kerensky"
+		picture = "Kerensky.dds"
+		ideology = liberalism
+		traits = {}
+		expire = "1960.1.1.1"
+}
 
 		}
 	}
