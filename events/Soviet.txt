@@ -40,7 +40,14 @@ country_event = {
 		traits = {}
 		expire = "1960.1.1.1"
 }
-		
+		load_focus_tree = {
+
+tree = soviett_focus
+
+}
+
+
+
     }
 		
 	option = {
@@ -51,6 +58,16 @@ country_event = {
 		ideology = marxism
 		traits = {}
 		expire = "1960.1.1.1"
+
+
+load_focus_tree = {
+
+tree = sovietr_focus
+
+}
+
+
+
 }
 
 
