@@ -102,10 +102,9 @@ declare_war_on = {
   }
 }
 
-add_name_space = NFT
+add_namespace = NFT
 
 country_event = {
-
 id = NFT.1
 title = NFT.1.t
 desc = NFT.1.d
